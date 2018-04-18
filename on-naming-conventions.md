@@ -1,14 +1,14 @@
 ## Naming and differentiation of categorical identifiers
-The Breakfast Post<sup>[1](#footnotes)</sup> made an excellent laborous study, poring over about 500,000 lines of code across nearly 2000 source files of SML code, on the anarchy of *Standard ML*'s guidelines on naming and separating with the capitalization rules the different aspects of the language, namely `variable`s, `structure`s,
+The Breakfast Post <sup>[1](#footnotes)</sup> made an excellent laborous study, poring over about 500,000 lines of code across nearly 2000 source files of SML code, on the anarchy of *Standard ML*'s guidelines on naming and separating with the capitalization rules the different aspects of the language, namely `variable`s, `structure`s,
 `signature`s, `functor`s and `exception`s. They drew from these conclusions of a standardized convention through **argumentum ad popularum**, by apppealing to the wide adoption of each guideline between the most prominent projects programmed in SML. This argumentation could be compared to Common Lisp's still-born standardization process, which had the more popular implementations blackmailing their concerns with threats of backing down from the project. I think this fails to see the variance on ergonomics between text input from layout to layout. My concerns apply to Ocaml's general guidelines as well.
 
 ### Ergonomics
 To start with, I had to take a closer look at a **US/GB QWERTY** -layout, since I
 have never had to use one in my entire life, and the very first thing I notice is
-that I can already see the non-issue of reaching towards the hyphen-underscore (`-` */* `_`)
+that I can already see the non-issue of reaching towards the hyphen-underscore (`-` / `_`)
 key, which is located in the number row, to the right of 0. It is a **lot** easier
-than in **SV QWERTY** which has the `-` */* ` _`-key where the `?` */* ` /`-key
-would be located in a standard **US QWERTY**; and where the `!` */* ` §`-key lies in the
+than in **SV QWERTY** which has the `-` */* ` _`-key where the `?` / `key`-key
+would be located in a standard **US QWERTY**; and where the `!` /` §`-key lies in the
 **FR AZERTY.**
 
 I did some purely subjective experiments to compare if it's as easy as it looks and I
@@ -29,14 +29,14 @@ to reach from the homerow, with having the ability to use your eg. middle-finger
 extended forward, is definetly not something a programmer would find themselves
 straining to type. Now compare this to the concept of *Emacs pinky*, a repetitive
 strain injury said to be caused by having to curl your pinkies repeatedly to
-hold Ctrl/Meta/Alt/Shift while chording the keys <sup>[2](#footnotes)</sup>
+hold Ctrl/Meta/Alt/Shift while chording the keys. <sup>[2](#footnotes)</sup>
 
 ### snake_case
 I can't emphasize how much I've come to abhor `snake_case` and it's variants. 
 Underscores in general too. For most, Lisp's parenthesis-leaden syntax is an
 abomination, while some might accept it as a neccesary evil for the efficient
 metaprogramming facilities. For me, though, the fact that there are no other 
-delimiters or special characters to worry about than a parenthesis and a hyphen<sup>[3](#footnotes)</sup>
+delimiters or special characters to worry about than a parenthesis and a hyphen <sup>[3](#footnotes)</sup>
 acts as a leveler of a certain sort.
 
 (This is what specifically attracted me to Scheme the first time
