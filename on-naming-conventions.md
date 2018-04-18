@@ -37,7 +37,8 @@ Underscores in general too. For most, Lisp's parenthesis-leaden syntax is an
 abomination, while some might accept it as a neccesary evil for the efficient
 metaprogramming facilities. For me, though, the fact that there are no other 
 delimiters or special characters to worry about than a parenthesis and a hyphen <sup>[3](#footnotes)</sup>
-acts as a leveler of a certain sort.
+acts as a leveler, along with it's quite unusual and alien syntax for most
+programmers nowadays.
 
 (This is what specifically attracted me to Scheme the first time
 I actually tried typing it out, rathen than moan about being *Lost In a Sea of
