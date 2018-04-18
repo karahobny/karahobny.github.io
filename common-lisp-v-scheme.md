@@ -1,7 +1,8 @@
 ## Common Lisp v. Scheme
 (*nb. Yes, I'm a Schemer and yes these complaints are highly biased*)
-Let's take a quick look at some Common Lisp's functions as examples, comparing them 
-to their Scheme-equivalent functions, and I'll let you act the role of an impartial judge
+
+Let's take a quick look at some examples of Common Lisp's functions, comparing them 
+to their Scheme-equivalent, and I'll let you act the role of an impartial judge
 presiding over the case **Common Lisp v. Common sense**:
 
 | Common Lisp | Scheme     | What it does?                                       |
