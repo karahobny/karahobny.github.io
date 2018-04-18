@@ -7,8 +7,8 @@ To start with, I had to take a closer look at a **US/GB QWERTY** -layout, since 
 have never had to use one in my entire life, and the very first thing I notice is
 that I can already see the non-issue of reaching towards the hyphen-underscore (`-` / `_`)
 key, which is located in the number row, to the right of 0. It is a **lot** easier
-than in **SV QWERTY** which has the `-` */* ` _`-key where the `?` / `key`-key
-would be located in a standard **US QWERTY**; and where the `!` /` §`-key lies in the
+than in **SV QWERTY** which has the `-` / `_`-key where the `?` / `/`
+would be located in a standard **US QWERTY**; and where the `!` /` §` sits at in the
 **FR AZERTY.**
 
 I did some purely subjective experiments to compare if it's as easy as it looks and I
